@@ -1,0 +1,53 @@
+name: toutou_s_application1
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  provider: ^6.0.5
+  cached_network_image: ^3.2.1
+  carousel_slider: ^4.2.1
+  geolocator: ^8.0.5
+  flutter_svg: ^1.1.6
+  flutter_rating_bar: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  intl: ^0.18.0
+  firebase_core: ^2.15.1
+  firebase_auth: ^4.9.0
+  google_sign_in: ^6.1.5
+  flutter_facebook_auth: ^3.5.7
+  geocoding: ^2.1.0
+  location: ^5.0.3
+  permission_handler: ^10.4.5
+  geolocator_platform_interface: ^4.0.8
+  cloud_firestore: ^4.9.1
+  get: ^4.6.6
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+    - family: Nunito
+      fonts: 
+        - asset: assets/fonts/NunitoBold.ttf
+          weight: 700
+        - asset: assets/fonts/NunitoRegular.ttf
+          weight: 400
+        - asset: assets/fonts/NunitoLight.ttf
+          weight: 300
+        - asset: assets/fonts/NunitoExtraBold.ttf
+          weight: 800

@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "1008737627870",
+    "project_id": "first-aid-app-essay",
+    "storage_bucket": "first-aid-app-essay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008737627870:android:080d8cec9b345503969c4f",
+        "android_client_info": {
+          "package_name": "com.toutousapplication.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008737627870-g0vnl84gboom9nofbkded0o61hgrle1n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toutousapplication.app",
+            "certificate_hash": "b5587b5b5f0560938848940d8b2bea530e70027f"
+          }
+        },
+        {
+          "client_id": "1008737627870-h4akv8qrol6rtnhucpcjfnlvi1k08oua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuz6O-ISzk-li7pW7EjY6TGJSxTnoMymI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008737627870-7d3ic96s6nngs2bv0j974qevtq8o8s9e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1008737627870-r4vem51vproajhf5n7e9rvpa10dd4h93.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.toutousapplication.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
