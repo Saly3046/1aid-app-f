@@ -164,6 +164,6 @@ class SplashPageoneScreen extends StatelessWidget {
   /// When the action is triggered, this function uses the [Navigator] widget
   /// to push the named route for the spalshPagetwoScreen.
   onTapNext(BuildContext context) {
-    Navigator.pushNamed(context, AppRoutes.splashPageoneScreen);
+    Navigator.pushNamed(context, AppRoutes.splashPagetwoScreen);
   }
 }
