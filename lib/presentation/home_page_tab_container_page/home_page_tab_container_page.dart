@@ -2,10 +2,10 @@ import '../home_page_tab_container_page/widgets/slidertext_item_widget.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/presentation/home_page/home_page.dart';
-import 'package:toutou_s_application1/widgets/app_bar/custom_app_bar.dart';
-import 'package:toutou_s_application1/widgets/custom_text_form_field.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/presentation/home_page/home_page.dart';
+import 'package:first_aid_app/widgets/app_bar/custom_app_bar.dart';
+import 'package:first_aid_app/widgets/custom_text_form_field.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:geocoding/geocoding.dart';
 import 'package:location/location.dart';
@@ -245,7 +245,7 @@ class HomePageTabContainerPageState extends State<HomePageTabContainerPage>
                             Align(
                                 alignment: Alignment.topLeft,
                                 child: Container(
-                                    margin: getMargin(top: 41),
+                                    margin: getMargin(top: 41, left: 22),
                                     decoration: AppDecoration.outlineBlack,
                                     child: Text("Hi Daniel !",
                                         style: CustomTextStyles

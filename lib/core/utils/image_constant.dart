@@ -58,6 +58,7 @@ class ImageConstant {
   static String imgLightbulb = '$imagePath/img_lightbulb.svg';
 
   static String imgWomandoctorwe = '$imagePath/img_womandoctorwe.png';
+  static String imgCall24outlineRedA400 = '$imagePath/img_call24outline.svg';
 
   // Common images
 
@@ -80,4 +81,21 @@ class ImageConstant {
   static String imgCar = '$imagePath/img_car.svg';
 
   static String imgUser = '$imagePath/img_user.svg';
+
+  // Profile_page images
+  static String imgLeftarrow24 = '$imagePath/img_leftarrow24.svg';
+
+  static String imgFile = '$imagePath/img_file.svg';
+
+  static String img6769264601112 = '$imagePath/img_6769264601112.png';
+
+  static String imgFocus24outline = '$imagePath/img_focus24outline.svg';
+
+  static String imgLink = '$imagePath/img_link.svg';
+
+  static String imgMedicalfile24 = '$imagePath/img_medicalfile24.svg';
+
+  static String imgAddaccount24 = '$imagePath/img_addaccount24.svg';
+
+  static String imgUsers24outline = '$imagePath/img_users24outline.svg';
 }

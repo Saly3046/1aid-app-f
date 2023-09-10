@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/presentation/splash_pageone_screen/splash_pageone_screen.dart';
-import 'package:toutou_s_application1/presentation/logo_page_screen/logo_page_screen.dart';
-import 'package:toutou_s_application1/presentation/spalsh_pagetwo_screen/spalsh_pagetwo_screen.dart';
-import 'package:toutou_s_application1/presentation/spalsh_pagethree_screen/spalsh_pagethree_screen.dart';
-import 'package:toutou_s_application1/presentation/login_page_screen/login_page_screen.dart';
-import 'package:toutou_s_application1/presentation/signup_page_screen/signup_page_screen.dart';
-import 'package:toutou_s_application1/presentation/first_aid_page_sample_one_screen/first_aid_page_sample_one_screen.dart';
-import 'package:toutou_s_application1/presentation/first_aid_page_sample_screen/first_aid_page_sample_screen.dart';
-import 'package:toutou_s_application1/presentation/app_navigation_screen/app_navigation_screen.dart';
-import 'package:toutou_s_application1/presentation/home_page_container_screen/home_page_container_screen.dart';
+import 'package:first_aid_app/presentation/splash_pageone_screen/splash_pageone_screen.dart';
+import 'package:first_aid_app/presentation/logo_page_screen/logo_page_screen.dart';
+import 'package:first_aid_app/presentation/spalsh_pagetwo_screen/spalsh_pagetwo_screen.dart';
+import 'package:first_aid_app/presentation/spalsh_pagethree_screen/spalsh_pagethree_screen.dart';
+import 'package:first_aid_app/presentation/login_page_screen/login_page_screen.dart';
+import 'package:first_aid_app/presentation/signup_page_screen/signup_page_screen.dart';
+import 'package:first_aid_app/presentation/first_aid_page_sample_one_screen/first_aid_page_sample_one_screen.dart';
+import 'package:first_aid_app/presentation/first_aid_page_sample_screen/first_aid_page_sample_screen.dart';
+import 'package:first_aid_app/presentation/app_navigation_screen/app_navigation_screen.dart';
+import 'package:first_aid_app/presentation/home_page_container_screen/home_page_container_screen.dart';
+import 'package:first_aid_app/presentation/profile_page_screen/profile_page_screen.dart';
 
 class AppRoutes {
   static const String splashPageoneScreen = '/splash_pageone_screen';
@@ -33,6 +34,8 @@ class AppRoutes {
 
   static const String homePageContainerScreen = '/home_page_container_screen';
 
+  static const String profilePageScreen = '/profile_page_screen';
+
   static Map<String, WidgetBuilder> routes = {
     splashPageoneScreen: (context) => SplashPageoneScreen(),
     logoPageScreen: (context) => LogoPageScreen(),
@@ -43,6 +46,7 @@ class AppRoutes {
     firstAidPageSampleOneScreen: (context) => FirstAidPageSampleOneScreen(),
     firstAidPageSampleScreen: (context) => FirstAidPageSampleScreen(),
     appNavigationScreen: (context) => AppNavigationScreen(),
-    homePageContainerScreen: (context) => HomePageContainerScreen()
+    homePageContainerScreen: (context) => HomePageContainerScreen(),
+    profilePageScreen: (context) => ProfilePageScreen(),
   };
 }

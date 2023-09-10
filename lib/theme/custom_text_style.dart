@@ -67,6 +67,12 @@ class CustomTextStyles {
       );
   // Headline style
   static get headlineLargeNunito => theme.textTheme.headlineLarge!.nunito;
+  static get headlineSmallInterWhiteA700 =>
+      theme.textTheme.headlineSmall!.inter.copyWith(
+        color: appTheme.whiteA700,
+        fontSize: 25.fSize,
+      );
+
   // Label text style
   static get labelLargeOnErrorContainer => theme.textTheme.labelLarge!.copyWith(
         color: theme.colorScheme.onErrorContainer.withOpacity(1),
@@ -176,6 +182,28 @@ class CustomTextStyles {
           15,
         ),
         fontWeight: FontWeight.w800,
+      );
+  static get titleSmallRedA400 => theme.textTheme.titleSmall!.copyWith(
+        color: appTheme.redA400,
+      );
+  static get titleSmallWhiteA700 => theme.textTheme.titleSmall!.copyWith(
+        color: appTheme.whiteA700,
+        fontSize: 15.fSize,
+        fontWeight: FontWeight.w800,
+      );
+
+  static get bodyMedium13 => theme.textTheme.bodyMedium!.copyWith(
+        fontSize: 13.fSize,
+      );
+  static get bodyMediumBluegray900 => theme.textTheme.bodyMedium!.copyWith(
+        color: appTheme.blueGray900,
+      );
+  static get bodyMediumBluegray900_1 => theme.textTheme.bodyMedium!.copyWith(
+        color: appTheme.blueGray900,
+      );
+  static get bodySmallBluegray900 => theme.textTheme.bodySmall!.copyWith(
+        color: appTheme.blueGray900.withOpacity(0.5),
+        fontSize: 11.fSize,
       );
 }
 

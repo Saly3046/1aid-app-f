@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/widgets/custom_elevated_button.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/widgets/custom_elevated_button.dart';
 
 class SpalshPagethreeScreen extends StatelessWidget {
   const SpalshPagethreeScreen({Key? key}) : super(key: key);

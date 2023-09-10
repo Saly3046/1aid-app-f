@@ -1,10 +1,10 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_facebook_auth/flutter_facebook_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/services/firebase_services.dart';
-import 'package:toutou_s_application1/widgets/custom_elevated_button.dart';
-import 'package:toutou_s_application1/widgets/custom_text_form_field.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/services/firebase_services.dart';
+import 'package:first_aid_app/widgets/custom_elevated_button.dart';
+import 'package:first_aid_app/widgets/custom_text_form_field.dart';
 
 // ignore_for_file: must_be_immutable
 class LoginPageScreen extends StatelessWidget {

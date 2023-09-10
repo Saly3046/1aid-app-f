@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/widgets/app_bar/custom_app_bar.dart';
-import 'package:toutou_s_application1/widgets/custom_elevated_button.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/widgets/app_bar/custom_app_bar.dart';
+import 'package:first_aid_app/widgets/custom_elevated_button.dart';
 
 class FirstAidPageSampleOneScreen extends StatelessWidget {
   const FirstAidPageSampleOneScreen({Key? key}) : super(key: key);

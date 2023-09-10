@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
+import 'package:first_aid_app/core/app_export.dart';
 
 class AppDecoration {
   // Fill decorations
@@ -15,6 +15,22 @@ class AppDecoration {
   static BoxDecoration get fillPrimaryContainer => BoxDecoration(
         color: theme.colorScheme.primaryContainer,
       );
+
+  static BoxDecoration get fillGray => BoxDecoration(
+        color: appTheme.gray100,
+      );
+  static BoxDecoration get fillTeal => BoxDecoration(
+        color: appTheme.teal100,
+      );
+  static BoxDecoration get fillWhiteA => BoxDecoration(
+        color: appTheme.whiteA700,
+      );
+  static BoxDecoration get fillWhiteA700 => BoxDecoration(
+        color: appTheme.whiteA700.withOpacity(0.8),
+      );
+
+  // Outline decorations
+  static BoxDecoration get outlineBlueGray => BoxDecoration();
 
   // Outline decorations
   static BoxDecoration get outlinePrimary => BoxDecoration(
@@ -64,6 +80,9 @@ class BorderRadiusStyle {
   static BorderRadius get customBorderTL8 => BorderRadius.horizontal(
         left: Radius.circular(getHorizontalSize(8)),
       );
+  static BorderRadius get customBorderTL40 => BorderRadius.vertical(
+        top: Radius.circular(40.h),
+      );
 
   // Rounded borders
   static BorderRadius get roundedBorder18 => BorderRadius.circular(
@@ -71,6 +90,15 @@ class BorderRadiusStyle {
       );
   static BorderRadius get roundedBorder8 => BorderRadius.circular(
         getHorizontalSize(8),
+      );
+  static BorderRadius get roundedBorder10 => BorderRadius.circular(
+        10.h,
+      );
+  static BorderRadius get roundedBorder30 => BorderRadius.circular(
+        30.h,
+      );
+  static BorderRadius get roundedBorder5 => BorderRadius.circular(
+        5.h,
       );
 }
 

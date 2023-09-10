@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/widgets/base_button.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/widgets/base_button.dart';
 
 class CustomElevatedButton extends BaseButton {
   CustomElevatedButton({

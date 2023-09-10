@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/presentation/home_page_tab_container_page/home_page_tab_container_page.dart';
-import 'package:toutou_s_application1/widgets/custom_bottom_bar.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/presentation/home_page_tab_container_page/home_page_tab_container_page.dart';
+import 'package:first_aid_app/presentation/profile_page_screen/profile_page_screen.dart';
+import 'package:first_aid_app/widgets/custom_bottom_bar.dart';
 
 // ignore_for_file: must_be_immutable
 class HomePageContainerScreen extends StatelessWidget {
@@ -39,7 +40,7 @@ class HomePageContainerScreen extends StatelessWidget {
       case BottomBarEnum.Car:
         return "/";
       case BottomBarEnum.User:
-        return "/";
+        return AppRoutes.profilePageScreen;
       default:
         return "/";
     }
@@ -50,6 +51,8 @@ class HomePageContainerScreen extends StatelessWidget {
     switch (currentRoute) {
       case AppRoutes.homePageContainerScreen:
         return HomePageTabContainerPage();
+      case AppRoutes.profilePageScreen:
+        return ProfilePageScreen();
       default:
         return DefaultWidget();
     }

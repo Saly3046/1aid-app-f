@@ -259,6 +259,16 @@ class ColorSchemes {
 
 /// Class containing custom colors for a primary theme.
 class PrimaryColors {
+  Color get blueGray900 => Color(0XFF01213E);
+
+  // Gray
+  Color get gray100 => Color(0XFFF5F5F7);
+
+  // Red
+  Color get redA400 => Color(0XFFF01C3C);
+
+  // White
+  Color get whiteA700 => Color(0XFFFFFFFF);
   // Black
   Color get black900 => Color(0XFF000000);
 

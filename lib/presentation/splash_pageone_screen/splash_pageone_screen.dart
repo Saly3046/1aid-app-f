@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/widgets/custom_elevated_button.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/widgets/custom_elevated_button.dart';
 
 class SplashPageoneScreen extends StatelessWidget {
   const SplashPageoneScreen({Key? key}) : super(key: key);
@@ -164,6 +164,6 @@ class SplashPageoneScreen extends StatelessWidget {
   /// When the action is triggered, this function uses the [Navigator] widget
   /// to push the named route for the spalshPagetwoScreen.
   onTapNext(BuildContext context) {
-    Navigator.pushNamed(context, AppRoutes.spalshPagetwoScreen);
+    Navigator.pushNamed(context, AppRoutes.splashPageoneScreen);
   }
 }

@@ -1,9 +1,12 @@
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:collection/collection.dart';
 import 'package:flutter/material.dart';
-import 'package:toutou_s_application1/core/app_export.dart';
-import 'package:toutou_s_application1/widgets/custom_checkbox_button.dart';
-import 'package:toutou_s_application1/widgets/custom_elevated_button.dart';
-import 'package:toutou_s_application1/widgets/custom_text_form_field.dart';
+import 'package:first_aid_app/core/app_export.dart';
+import 'package:first_aid_app/widgets/custom_checkbox_button.dart';
+import 'package:first_aid_app/widgets/custom_elevated_button.dart';
+import 'package:first_aid_app/widgets/custom_text_form_field.dart';
 
 // ignore_for_file: must_be_immutable
 class SignupPageScreen extends StatelessWidget {
